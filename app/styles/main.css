@@ -14,7 +14,7 @@
   margin-top: 5px;
 }
 
-#viewList {
+#viewList, #viewListBottom {
   margin-top: 10px;
 }
 
@@ -101,12 +101,16 @@
   float: right;
 }
 
+.navbar #viewListBottom {
+  float: right;
+  margin-right: 20px;
+}
+
 #chooseShopper, .btn {
   vertical-align: top;
 }
 
 .navbar-fixed-bottom .btn {
-  margin-right: 20px;
   margin-left: 20px;
 }
 

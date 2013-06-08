@@ -8,7 +8,7 @@ define([
   var ProductFooterView = Backbone.Marionette.ItemView.extend({
       template: templates.productFooter,
       events: {
-      	'click #viewList': 'goToCart',
+      	'click #viewListBottom': 'goToCart',
         'submit form': 'newProduct'
       },
       goToCart: function() {

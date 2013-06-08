@@ -20,13 +20,9 @@
 
 @media screen and (max-width: 700px){
  #chooseAisle, .newProduct {
- 	width: 170px;
+ 	width: 150px;
  }
 
- .navbar-fixed-bottom .btn {
-	  margin-right: 5px;
-	  margin-left: 5px;
-	}
 }
 
 @media screen and (max-width: 550px){
@@ -62,7 +58,7 @@
 		width: 150px;
 	}
 
-	#viewList {
+	.navbar #viewListBottom {
 		float: left;
 	}
 
