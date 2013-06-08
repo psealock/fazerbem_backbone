@@ -1,0 +1,158 @@
+/* app css stylesheet */
+body {
+  background-color: #e8e8e8;
+}
+
+.logo {
+  margin: 50px 0 0 0;
+}
+
+.intro {
+  text-align: center;
+}
+
+.search-query {
+  margin-top: 5px;
+}
+
+#viewList {
+  margin-top: 10px;
+}
+
+.navbar-inner {
+  padding-bottom: 5px;
+ /* padding-top: 5px;*/
+}
+
+.clear {
+  margin-left: 10px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin: 10px 0px 0px 10px;
+  float: left;
+  list-style: none;
+  color: #e8e8e8;
+  text-align: center;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.item h5 {
+  margin-top: 30px;
+}
+
+.aisle1 {
+  background-color: #1c8819;
+}
+
+.aisle2 {
+  background-color: purple;
+}
+
+.aisle3 {
+  background-color: orange;
+}
+
+.aisle4 {
+  background-color: #3882e8;
+}
+
+.aisle5 {
+  background-color: #ef27b0;
+}
+
+.aisle6 {
+  background-color: #b82d0d;
+}
+
+.aisle7 {
+  background-color: #079e95;
+}
+
+.totalItems h5 {
+  float: right;
+  margin-right: 50px;
+}
+
+.incart-true {
+  opacity: .2;
+}
+
+.bought-true {
+  opacity: .2;
+}
+
+#newProductForm {
+  float: left;
+}
+
+.newProduct {
+  margin-left: 20px;
+}
+
+.lastButton {
+  text-align: center;
+}
+
+.navbar #viewList {
+  float: right;
+}
+
+select, input {
+  vertical-align: top;
+}
+
+.navbar-fixed-bottom {
+}
+
+.navbar-fixed-bottom .btn {
+  margin-right: 20px;
+  margin-left: 20px;
+ /* margin-top: 10px;*/
+ /* margin-bottom: 10px;*/
+}
+/*.navbar-fixed-bottom .navbar-inner{
+  vertical-align: top;
+}*/
+
+.addOne {
+  /*margin-bottom: 40px;*/
+ /* margin-top: 0;*/
+}
+
+
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
