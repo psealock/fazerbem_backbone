@@ -1,0 +1,92 @@
+/*<<<<-------- Media Queries --------->>>>*/
+
+@media screen and (max-width: 850px){
+  .item {
+  	width: 80px;
+  	height: 80px;
+  	-moz-border-radius: 10px;
+	  border-radius: 10px;
+  }
+
+  .item h5 {
+  	margin-top: 10px;
+	  font-size: 1em;
+	}
+
+	.item {
+		font-size: .8em;
+	}
+}
+
+@media screen and (max-width: 700px){
+ #chooseAisle, .newProduct {
+ 	width: 170px;
+ }
+
+ .navbar-fixed-bottom .btn {
+	  margin-right: 5px;
+	  margin-left: 5px;
+	}
+}
+
+@media screen and (max-width: 550px){
+  .item {
+  	width: 55px;
+  	height: 55px;
+  	-moz-border-radius: 8px;
+	  border-radius: 8px;
+	  margin: 6px 0px 0px 6px;
+  }
+
+  .item h5 {
+  	margin-bottom: 0;
+	  font-size: .9em;
+	  line-height: 1.5em;
+	}
+
+	.item {
+		font-size: .7em;
+	}
+
+	#intro h5 {
+		font-size: .9em;
+		margin-bottom: 0px;
+	}
+
+	#intro h4 {
+		font-size: 1.1em;
+		display: none;
+	}
+
+	.search-query {
+		width: 150px;
+	}
+
+	#viewList {
+		float: left;
+	}
+
+}
+
+@media screen and (max-width: 420px){
+  .search-query {
+		width: 100px;
+	}
+	.back {
+		max-width: 87px;
+	}
+
+	#chooseAisle {
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 350px){
+  .search-query {
+		width: 80px;
+	}
+
+	.navbar-static-top {
+		padding: none;
+	}
+}
