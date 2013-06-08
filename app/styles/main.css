@@ -1,5 +1,5 @@
 /* app css stylesheet */
-body {
+#app {
   background-color: #e8e8e8;
 }
 
@@ -107,27 +107,22 @@ select, input {
   vertical-align: top;
 }
 
+#chooseShopper, .btn {
+  vertical-align: top;
+}
+
 .navbar-fixed-bottom {
 }
 
 .navbar-fixed-bottom .btn {
   margin-right: 20px;
   margin-left: 20px;
- /* margin-top: 10px;*/
- /* margin-bottom: 10px;*/
-}
-/*.navbar-fixed-bottom .navbar-inner{
-  vertical-align: top;
-}*/
-
-.addOne {
-  /*margin-bottom: 40px;*/
- /* margin-top: 0;*/
 }
 
 
 
-.menu {
+
+/*.menu {
   list-style: none;
   border-bottom: 0.1em solid black;
   margin-bottom: 2em;
@@ -156,3 +151,4 @@ select, input {
   padding: 0;
 }
 
+*/
