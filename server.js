@@ -2,6 +2,8 @@ var http = require('http'),
 	express = require('express'),
 	app = express();
 
+var port = process.env.PORT || 8080;
+
 app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.configure(function(){
@@ -115,7 +117,7 @@ db.once('open', function callback () {
 
 
 
-app.listen(8080);
+app.listen(port);
 
 console.log("Listening on port 8080...");
 
