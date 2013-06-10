@@ -77,14 +77,14 @@ define([
 			productLayout.productsRegion.show(productListView);
 
 			//count number of items with {incart: true}.
-			$('#totalItemsInCart').html(productList.howManyIncart());		
+			$('.totalItemsInCart').html(productList.howManyIncart());		
 
 			//listen for moveToCart function.
 			productListView.on('itemview:moveToCart', function() {
 				//re-render the list.
 		    productListView.render();
 		    //update the number of items with {incart: true}
-		    $('#totalItemsInCart').html(productList.howManyIncart());
+		    $('.totalItemsInCart').html(productList.howManyIncart());
 
 		  });
 

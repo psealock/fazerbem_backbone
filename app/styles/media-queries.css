@@ -1,4 +1,15 @@
 /*<<<<-------- Media Queries --------->>>>*/
+@media screen and (max-width: 979px){
+ .navbar-fixed-top {
+ 	position: fixed;
+ 	margin-left: 0px;
+ 	margin-right: 0px;
+ }
+ body {
+ 	padding-top: 60px;
+ }
+}
+
 
 @media screen and (max-width: 850px){
   .item {
@@ -31,7 +42,7 @@
   	height: 55px;
   	-moz-border-radius: 8px;
 	  border-radius: 8px;
-	  margin: 6px 0px 0px 6px;
+	  margin: 3px 3px 3px 3px;
   }
 
   .item h5 {
@@ -47,6 +58,7 @@
 	#intro h5 {
 		font-size: .9em;
 		margin-bottom: 0px;
+		display: none;
 	}
 
 	#intro h4 {
@@ -62,6 +74,14 @@
 		float: left;
 	}
 
+	.bottomButton {
+		display: none;
+	}
+
+	.item:last-child {
+	  margin-bottom: 25px;
+	}
+
 }
 
 @media screen and (max-width: 420px){
@@ -74,6 +94,15 @@
 
 	#chooseAisle {
 		margin-left: 20px;
+	}
+
+	.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner{
+	  padding-left: 5px;
+	  padding-right: 5px;
+	}
+
+	.clear {
+	  margin-left: 0px;
 	}
 }
 

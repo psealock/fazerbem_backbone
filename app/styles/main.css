@@ -1,4 +1,4 @@
-#app {
+body {
   background-color: #e8e8e8;
 }
 
@@ -30,7 +30,7 @@
   width: 100px;
   height: 100px;
   background-color: green;
-  margin: 10px 0px 0px 10px;
+  margin: 5px 5px 5px 5px;
   float: left;
   list-style: none;
   color: #e8e8e8;
@@ -42,6 +42,10 @@
 
 .item h5 {
   margin-top: 25px;
+}
+
+.item:last-child {
+  margin-bottom: 75px;
 }
 
 .aisle1 {
@@ -110,8 +114,9 @@
   vertical-align: top;
 }
 
-.navbar-fixed-bottom .btn {
-  margin-left: 20px;
+.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
