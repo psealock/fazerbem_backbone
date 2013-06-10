@@ -2,12 +2,15 @@ body {
   background-color: #e8e8e8;
 }
 
-/*.logo {
-  margin: 50px 0 0 0;
-}*/
-
 .intro {
   text-align: center;
+}
+
+.productArea {
+  width: 90%;
+  height:200px;
+  /*background-color: yellow;*/
+  margin: 0 auto;
 }
 
 .search-query {

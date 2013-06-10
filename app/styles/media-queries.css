@@ -21,12 +21,19 @@
 
   .item h5 {
   	margin-top: 10px;
-	  font-size: 1em;
+	  font-size: 1.2em;
 	}
 
 	.item {
 		font-size: .8em;
 	}
+}
+
+@media screen and (max-width: 769px){
+ #app {
+ 	padding-left: 0px;
+ 	padding-right: 0px;
+ }
 }
 
 @media screen and (max-width: 700px){
@@ -38,8 +45,8 @@
 
 @media screen and (max-width: 550px){
   .item {
-  	width: 55px;
-  	height: 55px;
+  	width: 63px;
+  	height: 63px;
   	-moz-border-radius: 8px;
 	  border-radius: 8px;
 	  margin: 3px 3px 3px 3px;
@@ -47,7 +54,7 @@
 
   .item h5 {
   	margin-bottom: 0;
-	  font-size: .9em;
+	  font-size: 1em;
 	  line-height: 1.5em;
 	}
 
@@ -85,6 +92,10 @@
 }
 
 @media screen and (max-width: 420px){
+	.productArea {
+		width: 100%;
+	}
+
   .search-query {
 		width: 100px;
 	}
