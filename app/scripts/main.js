@@ -44,7 +44,8 @@ require.config({
         CartFooterView: 'moduleApps/footer/views/CartFooterView',
         CartIntroView: 'moduleApps/main/views/CartIntroView',
         CartItemView: 'moduleApps/main/views/CartItemView',
-        CartListView: 'moduleApps/main/views/CartListView'
+        CartListView: 'moduleApps/main/views/CartListView',
+        EmptyCartView: 'moduleApps/main/views/EmptyCartView'
     }
 });
 

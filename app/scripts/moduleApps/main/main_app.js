@@ -191,9 +191,8 @@ define([
 		
 
 		vent.on('resetCart', function() {
-			productLayout.productsRegion.close();
-			totalItemsInCart.html("0");
-			totalItemsBought.html("0");
+			productList.reset();
+			instantiateCartListView();
 		});
 	}
 

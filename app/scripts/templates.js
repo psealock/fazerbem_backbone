@@ -8,6 +8,7 @@ define(function(require){
   	productIntro: require('tpl!moduleApps/main/templates/productIntro.tmpl'),
   	cartHeader: require('tpl!moduleApps/header/templates/cartHeader.tmpl'),
   	cartFooter: require('tpl!moduleApps/footer/templates/cartFooter.tmpl'),
-  	cartIntro: require('tpl!moduleApps/main/templates/cartIntro.tmpl')
+  	cartIntro: require('tpl!moduleApps/main/templates/cartIntro.tmpl'),
+    emptyView: require('tpl!moduleApps/main/templates/emptyView.tmpl')
   };
 });

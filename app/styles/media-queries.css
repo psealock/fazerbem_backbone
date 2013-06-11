@@ -1,10 +1,14 @@
 /*<<<<-------- Media Queries --------->>>>*/
 @media screen and (max-width: 979px){
- .navbar-fixed-top {
- 	position: fixed;
+ .navbar-fixed-top, .navbar-fixed-bottom {
  	margin-left: 0px;
  	margin-right: 0px;
  }
+
+ .navbar-fixed-top {
+	position: fixed;
+ }
+
  body {
  	padding-top: 60px;
  }
