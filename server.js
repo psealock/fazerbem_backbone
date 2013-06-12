@@ -23,14 +23,6 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function callback () {
   console.log("yay, I'm connected to my mongo!")
 
-  //access products list.
-  var productsSchema = mongoose.Schema({
-  	item: String,
-  	aisle: String,
-  	bought: Boolean
-  })
-  var products = mongoose.model('products', productsSchema)
-
   //access shoppers list.
   var shoppersSchema = mongoose.Schema({
   	name: String,
